@@ -14,4 +14,8 @@ public class Main {
         java.util.Arrays.sort(numbers);
         System.out.println("Max element is " + numbers[size - 1]);
     }
+    public static int[] sortArray(int[] array) {
+        java.util.Arrays.sort(array);
+        return array;
+    }
 }
